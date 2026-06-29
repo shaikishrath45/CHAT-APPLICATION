@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#1e3c72,#2a5298);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:450px;
+    height:650px;
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+
+.header{
+    background:#2a5298;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+.username-box{
+    padding:10px;
+}
+
+.username-box input{
+    width:100%;
+    padding:10px;
+    border:1px solid #ddd;
+    border-radius:8px;
+}
+
+#messages{
+    height:430px;
+    overflow-y:auto;
+    list-style:none;
+    padding:15px;
+    background:#f5f7fb;
+}
+
+.message{
+    margin-bottom:10px;
+    padding:10px;
+    border-radius:10px;
+    background:#e8f0ff;
+}
+
+.user{
+    font-weight:bold;
+    color:#2a5298;
+}
+
+.input-area{
+    display:flex;
+    padding:15px;
+    background:white;
+    border-top:1px solid #ddd;
+}
+
+.input-area input{
+    flex:1;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+.input-area button{
+    margin-left:10px;
+    padding:12px 18px;
+    background:#2a5298;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.input-area button:hover{
+    background:#1e3c72;
+}
+
+.system{
+    text-align:center;
+    color:gray;
+    font-style:italic;
+}
