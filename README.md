@@ -107,3 +107,11 @@ ChatGPT was used as a learning and development assistant throughout the project.
 ## Outcome
 
 The project was successfully completed and achieved its objective of enabling real-time communication between multiple connected users. Messages were transmitted and displayed instantly across all active clients without page refreshes. Testing across Microsoft Edge, Google Chrome, and VS Code Browser Preview confirmed the reliability of the implementation. This project serves as a strong foundation for developing more advanced real-time web applications in the future.
+
+
+#OUTPUT
+
+<img width="498" height="671" alt="Image" src="https://github.com/user-attachments/assets/7aad71a3-dcf4-44a2-b68e-9d5552c4e7fc" />
+
+
+
